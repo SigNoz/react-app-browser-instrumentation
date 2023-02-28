@@ -1,0 +1,57 @@
+.App {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.todo-input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  flex: 1;
+}
+
+.add-button {
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.todo-container {
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.delete-button {
+  border: none;
+  border-radius: 5px;
+  background-color: #dc3545;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
